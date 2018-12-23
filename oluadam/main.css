@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {
+    font: normal 16px/1.5 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 148px;
+    position: relative;
+}
+
+/** Global Kısım **/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-2{
+    width: 60%;
+    margin:auto;
+    overflow: hidden;
+}
+.container-3{
+    width: 60%;
+    margin:auto;
+    overflow: hidden;
+    background: #d3d3d3;
+    display: flex;
+    justify-content:  center;
+    padding: 1rem;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-1 {
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 500ms ease;
+    background: #154d63;
+}
+
+.btn-1:hover {
+    background: white;
+    color: #154d63;
+    cursor: pointer;
+}
+
+.btn-2 {
+    padding: 8px 20px;
+    margin: 10px;
+    margin-right: 40px;
+    display: inline;
+    text-decoration: none;
+    color: #154d63;
+    border: 1px #154d63 solid;
+    border-radius: 50px;
+    transition: background 500ms ease;
+}
+
+.btn-2:hover {
+    background: #154d63;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-3 {
+    padding: 8px 20px;
+    margin: 10px;
+    margin-right: 40px;
+    display: inline;
+    text-decoration: none;
+    color: #154d63;
+    border: 1px #154d63 solid;
+    border-radius: 50px;
+    transition: background 500ms ease;
+    background:#d3d3d3;
+}
+
+.btn-3:hover {
+    cursor: default;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+header{
+    background: #0084FF;
+    display: flex;
+    color:white;
+    padding: 1rem;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav h1{
+    font-size:1.6rem;
+}
+.var{
+    background:#d3d3d3;
+    display: flex;
+    flex-direction: row;
+}
+.var p{
+    margin:2rem;
+}
+.var input{
+    margin:2rem;
+}
+.degiskenler{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    background:#d3d3d3;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+    padding:4%;
+    margin-bottom:2%;
+    margin-top:0;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #0084FF;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin-top:3rem;
+}
+        /* SCROLLER */
+
+        /* width */
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
