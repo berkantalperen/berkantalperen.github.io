@@ -1,7 +1,7 @@
 (function () {
     var paragraphs=document.getElementsByTagName('button');
         console.log('a');
-         paragraphs[9].innerHTML="woossshh";
-         paragraphs[9].style.color="red";
+         paragraphs[8].innerHTML="woossshh";
+         paragraphs[8].style.color="red";
 
 })();
