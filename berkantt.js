@@ -2,6 +2,6 @@
     var paragraphs=document.getElementsByTagName('button');
         console.log('a');
          //paragraphs[16].innerHTML="woossshh";
-         paragraphs[16].click();
+         paragraphs[18].click();
 
 })();
