@@ -3,6 +3,6 @@
     for(i=0;i<paragraphs.length;i++){
         paragraphs[i].innerHTML="woossshh"
     }*/
-    var buton=document.querySelectorAll("button.tw-button");
-    buton.click();
+    document.getElementsByTagName("button").style.backgroundColor="red";
+
 })();
