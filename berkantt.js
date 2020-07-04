@@ -1,7 +1,7 @@
 (function () {
-    var paragraphs=document.getElementsByTagName('button');
-        console.log('a');
-         //paragraphs[16].innerHTML="woossshh";
-         paragraphs[20].click();
+    var paragraphs = document.getElementsByClassName('claimable-bonus__icon');
+    console.log('a');
+
+    paragraphs[0].click();
 
 })();
